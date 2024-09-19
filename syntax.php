@@ -6,20 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello <?php echo "world!" // prints 'world!'?></h1>
-    <div><?="This is example text."?></div>
-    <div>
-        <?php
-        print("Message1"); // prints 'Message1'
-        echo "<br>"; // goes next line
-        print("Message2"); // prints 'Message2'
-        /*
-            multi
-            line
-            comment
-        */
-        
-        ?>
-    </div>
+    <?php
+        echo "Tu"." funkcja"." echo"."!"."<br>";
+        echo ("echo uzywajace nawiasow! <br>");
+    ?>
 </body>
 </html>
