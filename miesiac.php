@@ -9,6 +9,8 @@
         h1 {
             text-align: center;
             border-style: dotted;
+            border-color: pink;
+            border-width: 4px;
         }
     </style>
 
