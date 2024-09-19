@@ -6,11 +6,21 @@
     <title>Document</title>
 
     <style>
-        h1 {
+        h1, h3 {
             text-align: center;
             border-style: dotted;
             border-color: pink;
             border-width: 4px;
+            border-right-style: none;
+            border-left-style: none;
+        }
+
+        h3 {
+            border-style: dashed;
+            border-width: 2px;
+            font-family: cursive;
+            border-right-style: none;
+            border-left-style: none;
         }
     </style>
 
