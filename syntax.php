@@ -6,12 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        echo "Hello World";
-        echo "Hello! ". "<br>";
-    ?>
-
-    <h1>Witaj <?php echo "swiecie!"?></h1>
-
+    <h1>Hello <?php echo "world!" // prints 'world!'?></h1>
+    <div><?="This is example text."?></div>
+    <div>
+        <?php
+        print("Message1"); // prints 'Message1'
+        echo "<br>"; // goes next line
+        print("Message2"); // prints 'Message2'
+        /*
+            multi
+            line
+            comment
+        */
+        
+        ?>
+    </div>
 </body>
 </html>
