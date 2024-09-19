@@ -7,7 +7,11 @@
 </head>
 <body>
     <?php
-        print("Hello world!");
+        echo "Hello World";
+        echo "Hello! ". "<br>";
     ?>
+
+    <h1>Witaj <?php echo "swiecie!"?></h1>
+
 </body>
 </html>
