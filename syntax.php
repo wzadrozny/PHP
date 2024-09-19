@@ -9,6 +9,9 @@
     <?php
         echo "Tu"." funkcja"." echo"."!"."<br>";
         echo ("echo uzywajace nawiasow! <br>");
+        print("Zglasza "."sie "."funkcja "."print!"."<br>");
     ?>
+
+    <h1><?="Dzien dobry! <br>"?></h1>
 </body>
 </html>
