@@ -7,7 +7,8 @@
 
     <style>
         h1 {
-
+            text-align: center;
+            border-style: dotted;
         }
     </style>
 
