@@ -29,9 +29,7 @@
     <?php
         $miesiac = rand(1, 15);
     ?>
-
     <h1>Miesiac <?=$miesiac?></h1>
-    
     <h3>
         <?php
         $kwartal =  ($miesiac-1) / 3;
