@@ -13,7 +13,7 @@
             background-color: cyan;
         }
         th {
-            padding: 10px;
+            padding: 20px;
         }
         table, th, td {
             border-collapse: collapse;
