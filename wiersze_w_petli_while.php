@@ -30,7 +30,6 @@
             $i++;
         }
     ?>
-    
     </table>
 </body>
 </html>
