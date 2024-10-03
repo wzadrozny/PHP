@@ -36,18 +36,11 @@
     </style>
 </head>
 <body>
-    <?php
-        function create_cell($content, $class, $type) {
-            echo "<$type class='$class'>$content</$type>";
-        }
-    ?>
-
     <table>
             <caption>Tabliczka mnożenia</caption>
             <?php
                 echo "<tr>";
-                
-                echo "<th>x</th>";
+                echo "<th>×</th>";
                 for ($i = 1; $i <= 10; $i++) {
                     echo "<th>$i</th>";
                 }
