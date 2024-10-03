@@ -46,11 +46,9 @@
             <caption>Tabliczka mnożenia</caption>
             <?php
                 echo "<tr>";
-                for ($i = 0; $i <= 10; $i++) {
-                    if ($i == 0) {
-                        echo "<th>x</th>";
-                        continue;
-                    }
+                
+                echo "<th>x</th>";
+                for ($i = 1; $i <= 10; $i++) {
                     echo "<th>$i</th>";
                 }
                 echo "</tr>";
