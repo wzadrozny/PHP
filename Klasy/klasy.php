@@ -1,40 +1,22 @@
 <?php
  class Kalkulator {
-    public $n1;
-    public $n2;
+    public float $n1;
+    public float $n2;
 
-    function are_valid_inputs() {
-        if (is_numeric($this->n1) && is_numeric($this->n2)) {
-            return true;
-        }
-        return false;
-    }
 
     function add() {
-        if (!$this->are_valid_inputs()) {
-            return null;
-        }
         return $this->n1 + $this->n2;
     }
 
-    function subtract() {
-        if (!$this->are_valid_inputs()) {
-            return null;
-        }
+    function subtract() 
         return $this->n1 - $this->n2;
     }
 
     function multiply() {
-        if (!$this->are_valid_inputs()) {
-            return null;
-        }
         return $this->n1 * $this->n2;
     }
 
     function divide() {
-        if (!$this->are_valid_inputs()) {
-            return null;
-        }
         if ($this->n2 == 0) {
             return null;
         }
@@ -43,9 +25,6 @@
     }
 
     function modulo() {
-        if (!$this->are_valid_inputs()) {
-            return null;
-        }
         if ($this->n2 == 0) {
             return null;
         }
