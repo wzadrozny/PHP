@@ -59,9 +59,6 @@ $obj->n2 = 4;
     </style>
 </head>
 <body>
-
-
-
     <ul>
     <li>Suma liczb <strong><?php echo $obj->n1?></strong> i <strong><?php echo $obj->n2;?></strong> jest równa <strong><?php echo $obj->add();?></strong></li>
     <li>Różnica liczb <strong><?php echo $obj->n1;?></strong> i <strong><?php echo $obj->n2;?></strong> jest równa <strong><?php echo $obj->subtract();?></strong></li>
