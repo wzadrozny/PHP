@@ -1,6 +1,6 @@
 <?php
     include_once("Arytmetyka.php");
-    $obj = new Arytmetyka(0.005, 0.002);
+    $obj = new Arytmetyka(1, 0.5);
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
 
     <style>
         ul {
-            list-style-type: circle;
+            list-style-type: square;
             background-color: cyan;
             font-size: 20px;
         }
