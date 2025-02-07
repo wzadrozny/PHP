@@ -42,13 +42,13 @@
             
             if ($letters_selected) {
                 if (count($_POST["letters"]) == 1) {
-                   echo "Ta litera zostala wybrana: ";
+                   echo "Ta litera została wybrana: ";
                 } else {
-                  echo "Te litery zostaly wybrane: ";
+                  echo "Te litery zostały wybrane: ";
                 }
-                echo implode(", ", $_POST["letters"]);
+                echo implode(", ", $_POST["letters"]).".";
             } else {
-                echo "Zadna litera nie zostala wybrana!";
+                echo "Żadna litera nie została wybrana!";
             }
             ?>
 
