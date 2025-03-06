@@ -18,11 +18,12 @@
     <div class="content">
     <?php
         $users = [
-            "marek" => "dupa123",
+            "marek" => "haslo123",
             "jasiu" => "nieumiemprogramowac",
+            "admin" => "admin123",
         ];
 
-        $admin_privelege = ["jasiu"];
+        $admin_privelege = ["admin"];
 
         if($_SERVER["REQUEST_METHOD"] === "POST") {
             if ($_POST["submit-status"] == "Zaloguj") {
