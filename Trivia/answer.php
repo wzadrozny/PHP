@@ -10,11 +10,13 @@
 </head>
 <body>
     <?php
-        if($_SESSION["correct_answer"] === $_POST["answer"]) {
+        if($_SESSION["question"]["correct_answer"] === $_POST["answer"]) {
             echo "Prawidlowa odpowiedz!";
         } else {
             echo "Nie prawidlowa odpowiedz!";
         }
+
+        print_r($_SESSION);
     ?>
 </body>
 </html>
