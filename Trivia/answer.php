@@ -10,9 +10,11 @@
 </head>
 <body>
     <?php
-        print_r($_SESSION);
-        ?> <hr> <?php
-        print_r($_POST);
+        if($_SESSION["correct_answer"] === $_POST["answer"]) {
+            echo "Prawidlowa odpowiedz!";
+        } else {
+            echo "Nie prawidlowa odpowiedz!";
+        }
     ?>
 </body>
 </html>
