@@ -26,7 +26,7 @@
             if (mysqli_num_rows($result) > 0) {
                 while($row = mysqli_fetch_assoc($result)) {
                     ?>
-                        <p>"<?=$row["Tytul"]?>" - <?=$row["Imie"].' '.$row["Nazwisko"]?>, wydawnictwo <?=$row["Wydawnictwo"]?> (<?=$row["Miejsce_wyd"]?> <?=$row["Rok_wyd"]?>), <?=$row["Objetosc_ks"]?> str. Cena: <?=$row["Cena"]?> zł (dział: <?=$row["Nazwa"]?>)</p>
+                        <p>"<?=$row["Tytul"]?>" - <?=$row["Imie"].' '.$row["Nazwisko"]?>, wydawnictwo <?=$row["Wydawnictwo"]?> (<?=$row["Miejsce_wyd"]?> <?=$row["Rok_wyd"]?>), <?=$row["Objetosc_ks"]?> str. Cena: <?=$row["Cena"]?> zł (dział: <?=$row["Nazwa"]?>).</p>
                     <?php
                 }
             }
